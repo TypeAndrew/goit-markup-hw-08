@@ -1,0 +1,35 @@
+.topline {
+    
+    background: var(--color-white);
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border: 1px solid var(--color-border);
+
+    &__menu {
+            align-self: center;
+        }
+
+    &__address {
+        display: flex;
+        align-self: center;
+        margin-left: auto;
+    }
+
+    &__nav {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .conteiner {
+            display: flex;
+            align-content: center;
+        }
+
+    .logo {
+    margin-right: 93px;
+    }
+}
+
+
+

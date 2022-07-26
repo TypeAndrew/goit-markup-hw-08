@@ -1,0 +1,28 @@
+.topline__item {
+    position: relative;
+    display: inline;
+    list-style-type: none;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.topline__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.main__menu-nav {
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    list-style: none;
+}
+
+.menu-clients-nav {
+
+    display: flex;
+
+    list-style: none;
+
+}

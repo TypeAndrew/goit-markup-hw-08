@@ -1,0 +1,99 @@
+.footer {
+    padding: 64px 0px;
+    font-style: normal;
+    line-height: 1.19;
+    background: var(--color-dark);
+
+    &__item {
+            line-height: 1.71;
+            text-decoration: none;
+            list-style: none;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    
+    &__item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+    &__link {
+        font-style: normal;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__link-address {
+        font-style: normal;
+        text-decoration: none;
+        color: var(--color-white);
+    }
+
+    &__address {
+
+        margin-top: 20px;
+
+    }
+
+    &__company {
+        margin-right: 70px;
+
+    }
+
+    &__social {
+        margin-right: auto;
+
+    }
+
+    &__tittle {
+        /*padding-bottom: 50px;
+    margin-top: 8px;*/
+        margin-bottom: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.14;
+
+        letter-spacing: 0.03em;
+        color: var(--color-white);
+    }
+    
+    .conteiner .logo {
+        margin-bottom: 20px;
+    }
+
+    .conteiner {
+        display: flex;
+        align-items: baseline;
+    }
+
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .button-social {
+
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .social__icon {
+
+        fill: var(--color-white);
+
+    }
+}
+
+
+
+.footer-submit {
+
+    display: block;
+
+}
+
+.footer-submit__form {
+
+    display: flex;
+    justify-content: center;
+
+}
