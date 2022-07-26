@@ -5,19 +5,33 @@
 
 .tittle--big {
 
-    width: 696px;
+    
     margin: 0 auto 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    /*60px;
-    /* or 136% */
+    font-size: 26px;
+    line-height: 1.62;
+    /* or 162% */
+    
     text-align: center;
     align-content: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    overflow-wrap: break-word;
+    @media screen and (min-width: 768px) {
+            width: 696px;
+        }
+    
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            
+            font-size: 44px;
+            line-height: 1.36;
+            /* or 136% */
+        
+            
+        }
+    
 }
 
 .tittle--small {
