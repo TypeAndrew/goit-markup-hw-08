@@ -29,10 +29,10 @@
 
 }
 
-.menu-clients-nav {
+.menu-clients__menu {
 
     display: flex;
-
+    flex-wrap: wrap;
     list-style: none;
 
 }
