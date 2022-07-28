@@ -13,7 +13,6 @@
 
 .main__menu-nav {
     padding-left: 0px;
-    
     justify-content: space-between;
     justify-items: center;
     list-style: none;
@@ -21,18 +20,22 @@
         display: flex;
         justify-content: center;
     }
-    
     @media screen and (min-width: 480px) and (max-width: 768px) {
         display: flex;
         justify-content: center;
     }
-
 }
 
 .menu-clients__menu {
-
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+}
 
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 480px) and (max-width: 768px) {}
 }

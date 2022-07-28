@@ -3,46 +3,56 @@
     font-style: normal;
     line-height: 1.19;
     background: var(--color-dark);
-
     &__item {
-            line-height: 1.71;
-            text-decoration: none;
-            list-style: none;
-            color: rgba(255, 255, 255, 0.6);
-        }
-    
+        line-height: 1.71;
+        text-decoration: none;
+        list-style: none;
+        color: rgba(255, 255, 255, 0.6);
+    }
     &__item:not(:last-child) {
         margin-bottom: 9px;
     }
-
     &__link {
         font-style: normal;
         text-decoration: none;
         color: rgba(255, 255, 255, 0.6);
     }
-
     &__link-address {
         font-style: normal;
         text-decoration: none;
         color: var(--color-white);
     }
-
     &__address {
-
         margin-top: 20px;
-
     }
-
     &__company {
-        margin-right: 70px;
-
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-right: 70px;
+        }
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-right: 70px;
+        }
     }
-
     &__social {
-        margin-right: auto;
-
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        @media screen and (min-width: 768px) {
+            margin-right: auto;
+        }
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            margin-right: auto;
+        }
     }
-
     &__tittle {
         /*padding-bottom: 50px;
     margin-top: 8px;*/
@@ -52,48 +62,117 @@
         font-weight: 700;
         text-transform: uppercase;
         line-height: 1.14;
-
         letter-spacing: 0.03em;
         color: var(--color-white);
     }
-    
     .conteiner .logo {
-        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 20px;
+        }
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            margin-bottom: 20px;
+        }
     }
-
     .conteiner {
         display: flex;
-        align-items: baseline;
+        flex-direction: column;
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            align-items: baseline;
+        }
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            flex-direction: row;
+            align-items: baseline;
+        }
     }
-
-
     .logo {
         margin-bottom: 20px;
     }
-
     .button-social {
-
         background-color: rgba(255, 255, 255, 0.1);
     }
-
     .social__icon {
-
         fill: var(--color-white);
-
     }
 }
 
-
-
 .footer-submit {
-
     display: block;
-
 }
 
 .footer-submit__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+    }
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
 
+.footer-submit__tittle {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--color-white);
+    }
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+        margin-bottom: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--color-white);
+    }
+}
 
+.footer-submit__button-subscribe {
+    text-align: left;
+    width: 200px;
+    height: 50px;
+    padding-left: 29px;
+    background: var(--color-blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.06em;
+    color: var(--color-white);
+}
+
+.footer-submit__label {
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0px;
+    }
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+        margin-bottom: 0px;
+    }
 }
