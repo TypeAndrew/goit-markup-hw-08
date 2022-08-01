@@ -31,14 +31,16 @@
         flex-wrap: wrap;
         align-items: center;
         @media screen and (min-width: 768px) {
-            flex-direction: row;
+            align-items: flex-start;
+            flex-direction: column;
             flex-wrap: nowrap;
             margin-right: 70px;
         }
         @media screen and (min-width: 480px) and (max-width: 768px) {
-            flex-direction: row;
+           
             flex-wrap: nowrap;
-            margin-right: 70px;
+            margin-left: 76px;
+            margin-right: 165px;
         }
     }
     &__social {
@@ -81,10 +83,12 @@
         flex-direction: column;
         @media screen and (min-width: 768px) {
             flex-direction: row;
+            
             align-items: baseline;
         }
         @media screen and (min-width: 480px) and (max-width: 768px) {
             flex-direction: row;
+            flex-wrap: wrap;
             align-items: baseline;
         }
     }
@@ -101,6 +105,17 @@
 
 .footer-submit {
     display: block;
+    @media screen and (min-width: 768px) {
+            
+        }
+    
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+    
+            margin-left: 166px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 }
 
 .footer-submit__form {
@@ -111,10 +126,7 @@
         flex-direction: row;
         justify-content: center;
     }
-    @media screen and (min-width: 480px) and (max-width: 768px) {
-        flex-direction: row;
-        justify-content: center;
-    }
+   
 }
 
 .footer-submit__tittle {
@@ -172,7 +184,5 @@
     @media screen and (min-width: 768px) {
         margin-bottom: 0px;
     }
-    @media screen and (min-width: 480px) and (max-width: 768px) {
-        margin-bottom: 0px;
-    }
+ 
 }

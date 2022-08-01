@@ -473,6 +473,21 @@
         stroke-width="0.2"
       />
 </symbol>
+<symbol
+      id="topline__open-menu-icon"
+      width="40"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+<path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M8 14.6667V12H32V14.6667H8ZM8 21.3333H32V18.6667H8V21.3333ZM8 28H32V25.3333H8V28Z"
+        fill="black"
+      />
+</symbol>
 
 
 </defs>

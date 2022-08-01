@@ -1,15 +1,4 @@
-.topline__item {
-    position: relative;
-    display: inline;
-    list-style-type: none;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
 
-.topline__item:not(:last-child) {
-    margin-right: 50px;
-}
 
 .main__menu-nav {
     padding-left: 0px;
@@ -20,14 +9,18 @@
         display: flex;
         justify-content: center;
     }
+    
     @media screen and (min-width: 480px) and (max-width: 768px) {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
     }
 }
 
 .menu-clients__menu {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
 }
@@ -36,6 +29,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+    }
     @media screen and (min-width: 480px) and (max-width: 768px) {}
 }

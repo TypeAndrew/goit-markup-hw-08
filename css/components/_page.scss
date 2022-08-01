@@ -10,11 +10,8 @@
             height: 4px;
             top: 46px;
             transform: translateX(-100%);
-            @media screen and (min-width: 768px) {
-                    background: var(--color-blue);
-                    border-radius: 2px;
-                }
-           
+            background: var(--color-blue);
+            border-radius: 2px;
     
             transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     

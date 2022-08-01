@@ -13,25 +13,6 @@
 
 }
 
-.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    @media screen and (min-width: 768px) {
-            
-    }
-
-    @media screen and (min-width: 480px) and (max-width: 768px) {
-       
-    }
-    
-}
-
-.is-hidden .modal {
-
-    transform: translate(-50%, -50%) scale(0.9);
-
-}
-
 .backdrop.is-hidden {
 
 
@@ -79,7 +60,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-
+        
             }
     
         &__inner {

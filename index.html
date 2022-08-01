@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -19,38 +19,52 @@
     <header class="topline">
 
         <div class="conteiner">
+            
+                <nav class="topline__nav">
+                    <a href="" class="logo"><span class="logo--bluewords">Web</span><span class="logo--blackwords">Studio</span></a>
+                    
+                        <ul class="topline__menu">
+                            <li class="topline__item">
 
-            <nav class="topline__nav">
-                <a href="" class="logo"><span class="logo--bluewords">Web</span><span class="logo--blackwords">Studio</span></a>
-                <ul class="topline__menu">
-                    <li class="topline__item">
+                                <a class="page--current" href="./index.html">Студия</a></li>
 
-                        <a class="page--current" href="./index.html">Студия</a></li>
+                            <li class="topline__item"> <a class="page" href="./potrfolio.html">Портфолио</a></li>
+                            <li class="topline__item"> <a class="page" href="https://goo.gl/maps/EKqUcqqfUvBnX7aQ7">Контакты</a></li>
+                        </ul>
+                       
+                    
+                </nav>
+               
+                
+                <ul class="topline__address">
+                    <li class="topline__item-address">
 
-                    <li class="topline__item"> <a class="page" href="./potrfolio.html">Портфолио</a></li>
-                    <li class="topline__item"> <a class="page" href="https://goo.gl/maps/EKqUcqqfUvBnX7aQ7">Контакты</a></li>
+                        <a class="contact" href="mailto:info@devstudio.com">
+                            <svg class="contact__icon-mail" width="16px" height="12px">
+                                    <use href="./images/icons.svg#icon-mail"></use>
+                                </svg>info@devstudio.com
+                        </a>
+                    </li>
+
+                    <li class="topline__item-address">
+                        <a class="contact" href="tel:+380961111111">
+                            <svg class="contact__icon-telephone" width="10px" height="16px">
+                                    <use href="./images/icons.svg#icon-phone"></use>
+                                </svg>+38 096 111 11 11
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-
-            <ul class="topline__address">
-                <li class="topline__item">
-
-                    <a class="contact" href="mailto:info@devstudio.com">
-                        <svg class="contact__icon-mail" width="16px" height="12px">
-                                <use href="./images/icons.svg#icon-mail"></use>
-                            </svg>info@devstudio.com
-                    </a>
-                </li>
-
-                <li class="topline__item">
-                    <a class="contact" href="tel:+380961111111">
-                        <svg class="contact__icon-telephone" width="10px" height="16px">
-                                <use href="./images/icons.svg#icon-phone"></use>
-                            </svg>+38 096 111 11 11
-                    </a>
-                </li>
-
-            </ul>
+                
+                <div class="topline__open">
+                <button class="topline__open-menu" type="button" data-mobile-menu-open>
+                    <svg class="topline__open-menu-icon" width="24px" height="24px">
+                        <use href="./images/icons.svg#topline__open-menu-icon"></use>
+                    </svg>
+                    </button>
+                </div>
+                
+               
+            
         </div>
     </header>
 
@@ -117,19 +131,19 @@
                 <ul class="main__menu-nav ">
                     <li class="main-work__item">
                         <div class="thumb">
-                            <img class="picture" src="images/img1.jpg" alt="descktop app">
+                            <img class="picture-work1" src="images/img2=1.jpg" alt="descktop app">
                             <p class="label">Десктопные приложения</p>
                         </div>
                     </li>
                     <li class="main-work__item">
                         <div class="thumb">
-                            <img class="picture" src="images/img2.jpg" alt="mobile app">
+                            <img class="picture-work2"  src="images/img2.jpg" alt="mobile app">
                             <p class="label">Мобильные приложения</p>
                         </div>
                     </li>
                     <li class="main-work__item">
                         <div class="thumb">
-                            <img class="picture" src="images/img3.jpg" alt="web design">
+                            <img class="picture-work3" src="images/img3.jpg" alt="web design">
                             <p class="label">Дизайнерские решения</p>
                         </div>
                     </li>
@@ -143,7 +157,7 @@
                 <h2 class="tittle--small">Наша команда</h2>
                 <ul class="main__menu-nav ">
                     <li class="main-worker__item">
-                        <img class="picture" src="images/photo1.jpg" alt="Product Designer">
+                        <img class="picture-worker1" src="images/photo1.jpg" alt="Product Designer">
                         <h3 class="main-worker__item-name">Игорь Демьяненко</h3>
                         <p class="main-worker__item-type">Product Designer</p>
                         <div class="social">
@@ -180,7 +194,7 @@
                         </div>
                     </li>
                     <li class="main-worker__item">
-                        <img class="picture" src="images/photo2.jpg" alt="Frontend Develope">
+                        <img class="picture-worker2" src="images/photo2.jpg" alt="Frontend Develope">
                         <h3 class="main-worker__item-name">Ольга Репина</h3>
                         <p class="main-worker__item-type">Frontend Developer</p>
                         <div class="social">
@@ -217,7 +231,7 @@
                         </div>
                     </li>
                     <li class="main-worker__item">
-                        <img class="picture" src="images/photo3.jpg" alt="Marketing">
+                        <img class="picture-worker3" src="images/photo3.jpg" alt="Marketing">
                         <h3 class="main-worker__item-name">Николай Тарасов</h3>
                         <p class="main-worker__item-type">Marketing</p>
                         <div class="social">
@@ -254,7 +268,7 @@
                         </div>
                     </li>
                     <li class="main-worker__item">
-                        <img class="picture" src="images/photo4.jpg" alt="UI Designer">
+                        <img class="picture-worker4" src="images/photo4.jpg" alt="UI Designer">
                         <h3 class="main-worker__item-name">Михаил Ермаков</h3>
                         <p class="main-worker__item-type">UI Designer</p>
                         <div class="social">
@@ -500,10 +514,68 @@
 
                 </div>
             </div>
+           
+           
         </div>
     </div>
+    
+    <div class="topline__mobile-menu is-hidden" data-mobile-menu>
+        <div class="conteiner">
+       
+        <button class="modal__close-button" type="button" data-mobile-menu-close>
+            <svg class="icon-close" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <ul class="topline__mobile-list">
+    
+            <li class="topline__mobile-item">
+    
+                <a class="page--current" href="./index.html">Студия</a>
+            </li>
+    
+            <li class="topline__mobile-item"> <a class="page" href="./potrfolio.html">Портфолио</a></li>
+            <li class="topline__mobile-item"> <a class="page" href="https://goo.gl/maps/EKqUcqqfUvBnX7aQ7">Контакты</a></li>
+        </ul>
+        <ul class="topline__mobile-address">
+            <li class="topline__mobile-address-item">
+    
+                <a class="contact" href="mailto:info@devstudio.com">
+                    <svg class="contact__icon-mail" width="16px" height="12px">
+                        <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>info@devstudio.com
+                </a>
+            </li>
+    
+            <li class="topline__mobile-address-item">
+                <a class="contact" href="tel:+380961111111">
+                    <svg class="contact__icon-telephone" width="10px" height="16px">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>+38 096 111 11 11
+                </a>
+            </li>
+        </ul>
 
+        <div class="social">
+            <ul class="social__list">
+                <li class="social__item">
+                    <a href="" class="button-social">Instagram</a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="button-social">Twitter</a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="button-social">Facebook</a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="button-social">Linkedin</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
