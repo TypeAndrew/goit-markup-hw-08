@@ -5,8 +5,12 @@
             padding-bottom: 50px;
             list-style: none;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             flex-wrap: wrap;
+            @media screen and (min-width: 480px) {
+                
+                justify-content: center;
+            }    
         }
     
         &__project-menu {
