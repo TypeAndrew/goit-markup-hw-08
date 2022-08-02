@@ -61,7 +61,7 @@
 }
 
 .picture-work1 {
-    @extend: .picture-work;
+    @extend .picture-work;
 
     background-image: url('../images/img1.jpg');
     @media (min-device-pixel-ratio: 2),
@@ -75,7 +75,7 @@
 }
 
 .picture-work2 {
-    @extend: .picture-work;
+    @extend .picture-work;
     
         background-image: url('../images/img2.jpg');
     @media (min-device-pixel-ratio: 2),
@@ -88,7 +88,7 @@
 }
 
 .picture-work3 {
-    @extend: .picture-work;
+    @extend .picture-work;
     
     background-image: url('../images/img3.jpg');
     @media (min-device-pixel-ratio: 2),
