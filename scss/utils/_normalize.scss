@@ -7,6 +7,15 @@ ul {
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+    @media screen and (min-width: 320px) {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+}
+
 body {
     margin: 0 0;
     font-family: 'Roboto', sans-serif;
@@ -14,6 +23,12 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-text);
     background: var(--color-white);
+    overflow-x: hidden;
+    @media screen and (min-width: 320px) {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: scroll;
+    }
 }
 
 a:hover,
