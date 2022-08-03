@@ -16,7 +16,8 @@
     text-transform: uppercase;
     overflow-wrap: break-word;
     @media screen and (min-width: 768px) {
-        width: 696px;
+        max-width: 696px;
+        font-size: 44px;
     }
     @media screen and (min-width: 480px) and (max-width: 768px) {
         font-size: 44px;
