@@ -1,6 +1,8 @@
 @import './utils/variables';
 @import './utils/normalize';
 @import './components/section';
+
+@import './components/modal';
 @import './components/main';
 @import './components/header';
 @import './components/footer';
@@ -13,4 +15,3 @@
 @import './components/buttons';
 @import './components/portfolio.scss';
 @import './components/socials';
-@import './components/modal';
