@@ -62,6 +62,7 @@
     &__refer-project {
         display: block;
         position: relative;
+        max-width: 370px;
     }
     &__refer-project:hover .overlay-project {
         transform: translateY(0);
@@ -89,7 +90,7 @@
 .overlay-project {
     position: absolute;
     bottom: 0;
-    ;
+    
     left: 0;
     width: 100%;
     height: 100%;
