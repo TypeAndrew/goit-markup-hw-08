@@ -161,6 +161,7 @@
     &__mobile-address {
 
         list-style: none;
+        
     }
 
     &__mobile-item {
@@ -177,7 +178,7 @@
     &__mobile-address-item {
 
         font-weight: 500;
-        font-size: 40px;
+        font-size: 24px;
         line-height: 1.17;
         letter-spacing: 0.02em;
 
@@ -188,9 +189,10 @@
     }
 
         &__mobile-address-item:first-child {
-    
+            
+            
             .contact {
-    
+                font-size: 34px;
                 color: var(--color-blue);
             }
     
