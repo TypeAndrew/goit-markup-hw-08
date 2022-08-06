@@ -33,7 +33,7 @@
             flex-wrap: nowrap;
             margin-right: 70px;
         }
-        @media screen and (min-width: 480px) and (max-width: 768px) {
+        @media screen and (min-width: 481px) and (max-width: 768px) {
             flex-wrap: nowrap;
             margin-left: 76px;
             margin-right: 165px;
@@ -47,7 +47,7 @@
         @media screen and (min-width: 768px) {
             margin-right: auto;
         }
-        @media screen and (min-width: 480px) and (max-width: 768px) {
+        @media screen and (min-width: 481px) and (max-width: 768px) {
             margin-right: auto;
         }
     }
@@ -70,7 +70,7 @@
         @media screen and (min-width: 768px) {
             margin-bottom: 20px;
         }
-        @media screen and (min-width: 480px) and (max-width: 768px) {
+        @media screen and (min-width: 481px) and (max-width: 768px) {
             margin-bottom: 20px;
         }
     }
@@ -81,7 +81,7 @@
             flex-direction: row;
             align-items: baseline;
         }
-        @media screen and (min-width: 480px) and (max-width: 768px) {
+        @media screen and (min-width: 481px) and (max-width: 768px) {
             flex-direction: row;
             flex-wrap: wrap;
             align-items: baseline;
@@ -101,7 +101,7 @@
 .footer-submit {
     display: block;
     @media screen and (min-width: 768px) {}
-    @media screen and (min-width: 480px) and (max-width: 768px) {
+    @media screen and (min-width: 481px) and (max-width: 768px) {
         margin-left: 166px;
         display: flex;
         flex-direction: column;

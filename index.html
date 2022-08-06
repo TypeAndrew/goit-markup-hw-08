@@ -71,7 +71,9 @@
     <main class="main">
         <section class="main-top">
             <div class="conteiner">
+
                 <h1 class="tittle--big">Эффективные решения для вашего бизнеса</h1>
+                
                 <button class="button" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
@@ -157,7 +159,23 @@
                 <h2 class="tittle--small">Наша команда</h2>
                 <ul class="main__menu-nav ">
                     <li class="main-worker__item">
-                        <img class="picture-worker1" src="images/photo1.jpg" alt="Product Designer">
+                            <picture >
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/photo1.jpg 1x, ./images/photo1@2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/tablet/photo-tablet1.jpg 1x, ./images/tablet/photo-tablet1@2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/mobile/photo-mobile1.jpg 1x, ./images/mobile/photo-mobile1@2x.jpg 2x">
+                                <img class="picture-worker" src="./images/photo1.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                            </picture>
+                            <!--<picture class="picture-worker">
+                                
+                                <source srcset="./images/tablet/photo-tablet1.jpg, ./images/tablet/photo1@2x.jpg 2x" type="image/jpg" media="(min-width: 481px)"/>
+                                <source srcset="./images/tablet/photo-tablet1.jpg, ./images/tablet/photo-tablet1@2x.jpg 2x" type="image/jpg" media="(min-width: 768px)" />
+                                <img src="./images/mobile/photo-mobile1.jpg" alt="Product Designer" />
+                            </picture>-->
+                      
+                        
                         <h3 class="main-worker__item-name">Игорь Демьяненко</h3>
                         <p class="main-worker__item-type">Product Designer</p>
                         <div class="social">
@@ -194,7 +212,17 @@
                         </div>
                     </li>
                     <li class="main-worker__item">
-                        <img class="picture-worker2" src="images/photo2.jpg" alt="Frontend Develope">
+                        
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/photo2.jpg 1x, ./images/photo2@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/tablet/photo-tablet2.jpg 1x, ./images/tablet/photo-tablet2@2x.jpg 2x">
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile/photo-mobile2.jpg 1x, ./images/mobile/photo-mobile2@2x.jpg 2x">
+                            <img class="picture-worker" src="./images/photo2.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                        </picture>
+                    
+                        
                         <h3 class="main-worker__item-name">Ольга Репина</h3>
                         <p class="main-worker__item-type">Frontend Developer</p>
                         <div class="social">
@@ -231,7 +259,15 @@
                         </div>
                     </li>
                     <li class="main-worker__item">
-                        <img class="picture-worker3" src="images/photo3.jpg" alt="Marketing">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./images/photo3.jpg 1x, ./images/photo3@2x.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/tablet/photo-tablet3.jpg 1x, ./images/tablet/photo-tablet3@2x.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./images/mobile/photo-mobile3.jpg 1x, ./images/mobile/photo-mobile3@2x.jpg 2x">
+                        <img class="picture-worker" src="./images/photo3.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                    </picture>
+                        
                         <h3 class="main-worker__item-name">Николай Тарасов</h3>
                         <p class="main-worker__item-type">Marketing</p>
                         <div class="social">
@@ -268,7 +304,15 @@
                         </div>
                     </li>
                     <li class="main-worker__item">
-                        <img class="picture-worker4" src="images/photo4.jpg" alt="UI Designer">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/photo4.jpg 1x, ./images/photo4@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/tablet/photo-tablet4.jpg 1x, ./images/tablet/photo-tablet4@2x.jpg 2x">
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile/photo-mobile4.jpg 1x, ./images/mobile/photo-mobile4@2x.jpg 2x">
+                            <img class="picture-worker" src="./images/photo4.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                        </picture>
+                        
                         <h3 class="main-worker__item-name">Михаил Ермаков</h3>
                         <p class="main-worker__item-type">UI Designer</p>
                         <div class="social">

@@ -18,9 +18,10 @@
     @media screen and (min-width: 768px) {
         max-width: 696px;
         font-size: 44px;
+        line-height: 1.36;
     }
-    @media screen and (min-width: 480px) and (max-width: 768px) {
-        font-size: 44px;
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        font-size: 26px;
         line-height: 1.36;
         /* or 136% */
     }

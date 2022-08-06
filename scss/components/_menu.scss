@@ -10,11 +10,13 @@
         justify-content: center;
     }
     
-    @media screen and (min-width: 480px) and (max-width: 768px) {
+    @media screen and (min-width: 481px) and (max-width: 768px) {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
         margin: 0;
+        //margin-left: calc(-1*var(--project-item-gep));
+        //margin-top: calc(-1*var(--project-item-gep));
     }
 }
 
@@ -32,5 +34,5 @@
     @media screen and (min-width: 768px) {
         align-items: flex-start;
     }
-    @media screen and (min-width: 480px) and (max-width: 768px) {}
+    @media screen and (min-width: 481px) and (max-width: 768px) {}
 }
