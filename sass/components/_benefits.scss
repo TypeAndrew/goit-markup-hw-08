@@ -1,0 +1,70 @@
+.benefits__hidden-text {
+    display: none;
+}
+.benefits {
+    @media screen and (max-width: 1199px) {        
+        padding-top: 60px;
+    }
+    @media screen and (min-width: 1200px) {        
+        padding-top: 94px;
+    }    
+}
+.benefits__head {    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.benefits__icon-plate, .benefits__icon-time, .benefits__icon-diagram, .benefits__icon-astronaut {
+    display: flex;
+    margin: 25px auto;
+}
+.benefits__list {
+    list-style: none;
+    width: 270px;
+    height: 120px;
+    background: $--color-grey;
+    margin-bottom: 120px;
+    border-radius: 4px;
+    
+    @media screen and (max-width: 767px) {       
+        width: 100%;  
+        margin-bottom: 136px;            
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {        
+        &:nth-child(2n+1) {
+            margin-right: 30px;
+        }   
+        width: 354px; 
+        margin-bottom: 160px;             
+    }
+    @media screen and (min-width: 1200px) {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}
+.benefits__title {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    color: $--color-text;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+}
+.benefits__text {
+    width: 270px;
+    color: $--color-brown;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 100%;
+    }
+}

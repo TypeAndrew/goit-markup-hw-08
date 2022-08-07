@@ -1,0 +1,113 @@
+.team {
+    background: $--color-grey;
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }    
+}
+.team__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team__title {
+    margin-bottom: 50px;
+    color: $--color-text;
+    font-weight: 700;
+    @media screen and (max-width: 1199px) {
+        font-size: 28px;
+        line-height: 1.17;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 1.16;
+    }
+    
+}
+.team__item {
+    text-align: center;    
+    background: $--color-white;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        
+        width: calc((100% - 30px)/2);
+        &:nth-child(2n+1) {
+            margin-right: 30px;
+        }
+        &:nth-child(-n+2) {
+            margin-bottom: 30px;
+        }    
+    }
+    @media screen and (min-width: 1200px) {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }    
+}
+
+.team__list {   
+    list-style: none;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        display: flex; 
+        
+        flex-wrap: wrap;
+        
+        
+    }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+}
+.team__card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team__item-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: $--color-text;
+}
+.team__item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $--color-brown;
+    margin-bottom: 16px;
+}
+.team__icon-head {
+    display: flex;
+    justify-content: center;
+}
+.team__icon-list {
+    list-style: none;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+.team__icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    fill: $--color-dark-grey;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        background: $--color-blue;
+        fill: $--color-white;
+    }
+}

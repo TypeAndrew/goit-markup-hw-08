@@ -1,0 +1,43 @@
+//colors
+    $--color-white: #ffffff;
+    $--color-text: #212121;
+    $--color-brown: #757575;
+    $--color-blue: #2196F3;
+    $--color-grey: #F5F4FA;
+    $--color-work: #E5E5E5;
+    $--color-footer-icon: rgba(255, 255, 255, 0.1);
+    $--color-dark-blue: #188CE8;
+    $--color-border: #EEEEEE;
+    $--color-dark-grey: #AFB1B8;
+
+         $background-hero: #2F303A;
+         $footer-text: rgba(255, 255, 255, 0.6);
+         $line: #ECECEC;
+
+//styles
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6,
+p,
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;    
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        width: 480px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1199px)  {
+        width: 768px;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 1200px;
+      }
+}
