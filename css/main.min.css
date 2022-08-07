@@ -1075,7 +1075,7 @@ a {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .picture-worker {
-    min-width: calc(50% - var(--project-item-gep));
+    min-width: 354px;
   }
 }
 
