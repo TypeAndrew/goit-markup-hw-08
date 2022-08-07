@@ -591,6 +591,16 @@ a {
   border: 1px solid var(--color-border);
   /*topline mobile menu*/
 }
+@media screen and (min-width: 481px) {
+  .topline {
+    min-width: 767px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .topline {
+    min-width: 1200px;
+  }
+}
 .topline__menu {
   display: none;
 }
@@ -763,6 +773,16 @@ a {
   font-style: normal;
   line-height: 1.19;
   background: var(--color-dark);
+}
+@media screen and (min-width: 481px) {
+  .footer {
+    min-width: 767px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    min-width: 1200px;
+  }
 }
 .footer__item {
   line-height: 1.71;

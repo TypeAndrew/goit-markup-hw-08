@@ -3,6 +3,13 @@
     font-style: normal;
     line-height: 1.19;
     background: var(--color-dark);
+    @media screen and (min-width: 481px) {
+            min-width: 767px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            min-width: 1200px;
+        }
     &__item {
         line-height: 1.71;
         text-decoration: none;
