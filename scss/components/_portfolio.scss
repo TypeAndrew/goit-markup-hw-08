@@ -20,12 +20,16 @@
         margin-top: calc(-1*var(--project-item-gep));
     }
     &__project-menu>&__project-item {
+        
+        width: calc((100% - 30px));
         @media screen and (min-width: 768px) {
+            width: calc((100% - 30px)/3);
             flex-basis: calc(100% / 3 - var(--project-item-gep));
             margin-left: var(--project-item-gep);
             margin-top: var(--project-item-gep);
         }
         @media screen and (min-width: 481px) and (max-width: 768px) {
+            width: calc((100% - 30px)/2);
             flex-basis: calc(100% / 2 - var(--project-item-gep));
             margin-left: 15px;
             margin-top: var(--project-item-gep);
@@ -62,7 +66,14 @@
     &__refer-project {
         display: block;
         position: relative;
-        max-width: 370px;
+        max-width: 100%;
+        @media screen and (min-width: 768px) {
+                max-width: 370px;
+            }
+        
+            @media screen and (min-width: 481px) and (max-width: 768px) {
+                max-width: 354px;
+            }
     }
     &__refer-project:hover .overlay-project {
         transform: translateY(0);
@@ -92,7 +103,7 @@
     bottom: 0;
     
     left: 0;
-    width: 100%;
+    max-width: 450px;
     height: 100%;
     padding: 63px 24px;
     transform: translateY(100%);

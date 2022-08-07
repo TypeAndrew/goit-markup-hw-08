@@ -27,13 +27,15 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        margin-bottom: 60px;
         @media screen and (min-width: 768px) {
             align-items: flex-start;
             flex-direction: column;
             flex-wrap: nowrap;
             margin-right: 70px;
+            
         }
-        @media screen and (min-width: 481px) and (max-width: 768px) {
+        @media screen and (min-width: 600px) and (max-width: 768px) {
             flex-wrap: nowrap;
             margin-left: 76px;
             margin-right: 165px;
@@ -44,6 +46,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        margin-bottom: 60px;
         @media screen and (min-width: 768px) {
             margin-right: auto;
         }

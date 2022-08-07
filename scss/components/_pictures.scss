@@ -80,8 +80,17 @@
     display: block;
     background-size: cover;
     height: auto;
-    min-width: 354px;
+    min-width: 450px;
     background-position: center;
+    @media screen and (min-width: 768px) {
+            min-width: 270px;
+            
+    }
+    
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+            min-width: 354px;
+          
+    }
 }
 
 /*.picture-worker1 {
@@ -118,31 +127,27 @@
 
 .picture-project {
     //max-width: 480px;
-    height: 294px;
+    //height: 294px;
     display: block;
     position: relative;
-    @media screen and (min-width: 768px) {
-        // max-width: 370px;
-        height: 294px;
-    }
-    @media screen and (min-width: 481px) and (max-width: 768px) {
-        //max-width: 354px;
-        height: 294px;
-    }
-    @each $project in technockrack,
-    goldenstar,
-    seafood,
-    prime,
-    boxes,
-    inspiratiion,
-    limitededition,
-    lab,
-    growingbussiness {
-        .#{$project} {
-            background-image: url('./images/#{$project}.jpg');
-            @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-                background-image: url('./images/#{$project}@2x.jpg');
+    min-width: 450px;
+        background-size: cover;
+        height: auto;
+    
+        background-position: center;
+    
+        @media screen and (min-width: 1200px) {
+                min-width: 370px;
+        
             }
-        }
-    }
-}
+        
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+                min-width: 370px;
+        
+            }
+        
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+             min-width: 354px;
+        
+         }
+}  

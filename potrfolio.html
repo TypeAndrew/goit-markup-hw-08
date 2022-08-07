@@ -98,12 +98,15 @@
                     <li class="portfolio__project-item">
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
-                                <div class="picture-project">
+                               
+                                    
                                     <picture class="technockrack">
-                                        <source srcset="./images/technockrack.jpg, ./images/technockrack@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/technockrack.jpg" alt="Product Designer" />
+                                        <source media="(min-width: 1200px)" srcset="./images/technockrack.jpg 1x, ./images/technockrack@2x.jpg 2x">
+                                        <source media="(min-width: 768px)" srcset="./images/tablet/technockrack.jpg 1x, ./images/tablet/technockrack@2x.jpg 2x">
+                                        <source media="(max-width: 767px)" srcset="./images/mobile/technockrack.jpg 1x, ./images/mobile/technockrack@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/technockrack.jpg" width="270" height="260" alt="technockrack">
                                     </picture>
-                                </div>
+                                
                                 <div class="overlay-project">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
@@ -120,13 +123,13 @@
                     <li class="portfolio__project-item">
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
-                                <div class="picture-project">
-                                    <picture class="goldenstar">
-                                        <source srcset="./images/goldenstar.jpg, ./images/goldenstar@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/goldenstar.jpg" alt="Frontend Develope" />
-                                    </picture>
-                                </div>
-
+                              
+                                <picture class="goldenstar">
+                                    <source media="(min-width: 1200px)" srcset="./images/goldenstar.jpg 1x, ./images/goldenstar@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/tablet/goldenstar.jpg 1x, ./images/tablet/goldenstar@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/mobile/goldenstar.jpg 1x, ./images/mobile/goldenstar@2x.jpg 2x">
+                                    <img class="picture-project" src="./images/goldenstar.jpg" width="270" height="260" alt="goldenstar">
+                                </picture>
                                 <div class="overlay-project">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
@@ -143,13 +146,20 @@
                     <li class="portfolio__project-item">
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
-                                <div class="picture-project">
-                                    <picture class="seafood">
+                                
+                                <!-- <picture class="seafood">
                                         <source srcset="./images/seafood.jpg, ./images/seafood@2x.jpg 2x" type="image/jpg" />
                                         <img src="./images/seafood.jpg" alt="Marketing" />
+                                    </picture>-->
+                                    <picture class="seafood">
+                                        <source media="(min-width: 1200px)" srcset="./images/seafood.jpg 1x, ./images/seafood@2x.jpg 2x">
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/tablet/seafood.jpg 1x, ./images/tablet/seafood@2x.jpg 2x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/mobile/seafood.jpg 1x, ./images/mobile/seafood@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/seafood.jpg" width="270" height="260" alt="seafood">
                                     </picture>
-                                    
-                                </div>
+                                
 
                                 <div class="overlay-project">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -168,11 +178,13 @@
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
                                 <div class="picture-project">
+                                 
                                     <picture class="prime">
-                                        <source srcset="./images/prime.jpg, ./images/prime@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/prime.jpg" alt="UI Designer" />
+                                        <source media="(min-width: 1200px)" srcset="./images/prime.jpg 1x, ./images/prime@2x.jpg 2x">
+                                        <source media="(min-width: 768px)" srcset="./images/tablet/prime.jpg 1x, ./images/tablet/prime@2x.jpg 2x">
+                                        <source media="(max-width: 767px)" srcset="./images/mobile/prime.jpg 1x, ./images/mobile/prime@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/prime.jpg" width="270" height="260" alt="prime">
                                     </picture>
-                                    
                                 </div>
 
                                 <div class="overlay-project">
@@ -192,11 +204,13 @@
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
                                 <div class="picture-project">
+                                   
                                     <picture class="boxes">
-                                        <source srcset="./images/boxes.jpg, ./images/boxes@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/boxes.jpg" alt="UI Designer" />
+                                        <source media="(min-width: 1200px)" srcset="./images/boxes.jpg 1x, ./images/boxes@2x.jpg 2x">
+                                        <source media="(min-width: 768px)" srcset="./images/tablet/boxes.jpg 1x, ./images/tablet/boxes@2x.jpg 2x">
+                                        <source media="(max-width: 767px)" srcset="./images/mobile/boxes.jpg 1x, ./images/mobile/boxes@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/boxes.jpg" width="270" height="260" alt="boxes">
                                     </picture>
-                                    
                                 </div>
 
                                 <div class="overlay-project">
@@ -216,11 +230,13 @@
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
                                 <div class="picture-project">
+                                    
                                     <picture class="inspiratiion">
-                                        <source srcset="./images/inspiratiion.jpg, ./images/inspiratiion@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/inspiratiion.jpg" alt="UI Designer" />
+                                        <source media="(min-width: 1200px)" srcset="./images/inspiratiion.jpg 1x, ./images/inspiratiion@2x.jpg 2x">
+                                        <source media="(min-width: 768px)" srcset="./images/tablet/inspiratiion.jpg 1x, ./images/tablet/inspiratiion@2x.jpg 2x">
+                                        <source media="(max-width: 767px)" srcset="./images/mobile/inspiratiion.jpg 1x, ./images/mobile/inspiratiion@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/inspiratiion.jpg" width="270" height="260" alt="inspiratiion">
                                     </picture>
-                                   
                                 </div>
 
                                 <div class="overlay-project">
@@ -240,11 +256,15 @@
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
                                 <div class="picture-project">
+                                   
                                     <picture class="limitededition">
-                                        <source srcset="./images/limitededition.jpg, ./images/limitededition@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/limitededition.jpg" alt="UI Designer" />
+                                        <source media="(min-width: 1200px)" srcset="./images/limitededition.jpg 1x, ./images/limitededition@2x.jpg 2x">
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/tablet/limitededition.jpg 1x, ./images/tablet/limitededition@2x.jpg 2x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/mobile/limitededition.jpg 1x, ./images/mobile/limitededition@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/limitededition.jpg" width="270" height="260" alt="limitededition">
                                     </picture>
-                                    
                                 </div>
 
                                 <div class="overlay-project">
@@ -264,11 +284,15 @@
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
                                 <div class="picture-project">
-                                    <picture class="lab">
-                                        <source srcset="./images/lab.jpg, ./images/lab@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/lab.jpg" alt="UI Designer" />
-                                    </picture>
                                     
+                                    <picture class="lab">
+                                        <source media="(min-width: 1200px)" srcset="./images/lab.jpg 1x, ./images/lab@2x.jpg 2x">
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/tablet/lab.jpg 1x, ./images/tablet/lab@2x.jpg 2x">
+                                        <source media="(max-width: 767px)"
+                                            srcset="./images/mobile/lab.jpg 1x, ./images/mobile/lab@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/lab.jpg" width="270" height="260" alt="lab">
+                                    </picture>
                                 </div>
 
                                 <div class="overlay-project">
@@ -288,11 +312,13 @@
                         <a class="portfolio__refer-project">
                             <div class="portfolio__picture-block">
                                 <div class="picture-project">
-                                    <picture class="growingbussiness">
-                                        <source srcset="./images/growingbussiness.jpg, ./images/growingbussiness@2x.jpg 2x" type="image/jpg" />
-                                        <img src="./images/growingbussiness.jpg" alt="UI Designer" />
-                                    </picture>
                                     
+                                    <picture class="growingbussiness">
+                                        <source media="(min-width: 1200px)" srcset="./images/growingbussiness.jpg 1x, ./images/growingbussiness@2x.jpg 2x">
+                                        <source media="(min-width: 768px)" srcset="./images/tablet/growingbussiness.jpg 1x, ./images/tablet/growingbussiness@2x.jpg 2x">
+                                        <source media="(max-width: 767px)" srcset="./images/mobile/growingbussiness.jpg 1x, ./images/mobile/growingbussiness@2x.jpg 2x">
+                                        <img class="picture-project" src="./images/growingbussiness.jpg" width="270" height="260" alt="growingbussiness">
+                                    </picture>
                                 </div>
 
                                 <div class="overlay-project">
