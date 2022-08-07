@@ -45,7 +45,7 @@
                     <li class="contacts__list">
                         <a class="contacts__links" href="">
                             <svg class="contacts__icon" width="16px" height="12px">
-                                <use href="./images/sprite.svg#icon-envelope"></use>
+                                <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
                             info@devstudio.com
                         </a>
@@ -53,7 +53,7 @@
                     <li class="contacts__list hidden">
                         <a class="contacts__links" href="">
                             <svg class="contacts__icon" width="10px" height="16px">
-                                <use href="./images/sprite.svg#icon-smartphone"></use>
+                                <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
                             +38 096 111 11 11
                         </a>
@@ -80,172 +80,175 @@
     <main>
         <section class="portfolio">
             <div class="container">
-                <ul class="filters__list">
-                    <li class="filters__buttons">
-                        <button type="button" class="filters__btn">Все</button>
-                    </li>
-                    <li class="filters__buttons">
-                        <button type="button" class="filters__btn">Веб-сайты</button>
-                    </li>
-                    <li class="filters__buttons">
-                        <button type="button" class="filters__btn">Приложения</button>
-                    </li>
-                    <li class="filters__buttons">
-                        <button type="button" class="filters__btn">Дизайн</button>
-                    </li>
-                    <li class="filters__buttons">
-                        <button type="button" class="filters__btn">Маркетинг</button>
-                    </li>
-                </ul>   
-                <ul class="project__list">
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="technockrack">
-                                <source media="(min-width: 1200px)" srcset="./images/technockrack.jpg 1x, ./images/technockrack@2x.jpg 2x">
-                                <source media="(min-width: 768px)"
-                                    srcset="./images/tablet/technockrack.jpg 1x, ./images/tablet/technockrack@2x.jpg 2x">
-                                <source media="(max-width: 767px)"
-                                    srcset="./images/mobile/technockrack.jpg 1x, ./images/mobile/technockrack@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/technockrack.jpg" width="270" height="260" alt="technockrack">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Технокряк</h3>
-                            <p class="project__text">Веб-сайт</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="goldenstar">
-                                <source media="(min-width: 1200px)" srcset="./images/goldenstar.jpg 1x, ./images/goldenstar@2x.jpg 2x">
-                                <source media="(min-width: 768px)" srcset="./images/tablet/goldenstar.jpg 1x, ./images/tablet/goldenstar@2x.jpg 2x">
-                                <source media="(max-width: 767px)" srcset="./images/mobile/goldenstar.jpg 1x, ./images/mobile/goldenstar@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/goldenstar.jpg" width="270" height="260" alt="goldenstar">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
-                            <p class="project__text">Дизайн</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="seafood">
-                                <source media="(min-width: 1200px)" srcset="./images/seafood.jpg 1x, ./images/seafood@2x.jpg 2x">
-                                <source media="(min-width: 768px)" srcset="./images/tablet/seafood.jpg 1x, ./images/tablet/seafood@2x.jpg 2x">
-                                <source media="(max-width: 767px)" srcset="./images/mobile/seafood.jpg 1x, ./images/mobile/seafood@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/seafood.jpg" width="270" height="260" alt="seafood">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Ресторан Seafood</h3>
-                            <p class="project__text">Приложение</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="prime">
-                                <source media="(min-width: 1200px)" srcset="./images/prime.jpg 1x, ./images/prime@2x.jpg 2x">
-                                <source media="(min-width: 768px)" srcset="./images/tablet/prime.jpg 1x, ./images/tablet/prime@2x.jpg 2x">
-                                <source media="(max-width: 767px)" srcset="./images/mobile/prime.jpg 1x, ./images/mobile/prime@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/prime.jpg" width="270" height="260" alt="prime">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Проект Prime</h3>
-                            <p class="project__text">Маркетинг</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="boxes">
-                                <source media="(min-width: 1200px)" srcset="./images/boxes.jpg 1x, ./images/boxes@2x.jpg 2x">
-                                <source media="(min-width: 768px)" srcset="./images/tablet/boxes.jpg 1x, ./images/tablet/boxes@2x.jpg 2x">
-                                <source media="(max-width: 767px)" srcset="./images/mobile/boxes.jpg 1x, ./images/mobile/boxes@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/boxes.jpg" width="270" height="260" alt="boxes">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Проект Boxes</h3>
-                            <p class="project__text">Приложение</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="inspiratiion">
-                                <source media="(min-width: 1200px)" srcset="./images/inspiratiion.jpg 1x, ./images/inspiratiion@2x.jpg 2x">
-                                <source media="(min-width: 768px)"
-                                    srcset="./images/tablet/inspiratiion.jpg 1x, ./images/tablet/inspiratiion@2x.jpg 2x">
-                                <source media="(max-width: 767px)"
-                                    srcset="./images/mobile/inspiratiion.jpg 1x, ./images/mobile/inspiratiion@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/inspiratiion.jpg" width="270" height="260" alt="inspiratiion">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Inspiration has no Borders</h3>
-                            <p class="project__text">Веб-сайт</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="limitededition">
-                                <source media="(min-width: 1200px)" srcset="./images/limitededition.jpg 1x, ./images/limitededition@2x.jpg 2x">
-                                <source media="(min-width: 768px)"
-                                    srcset="./images/tablet/limitededition.jpg 1x, ./images/tablet/limitededition@2x.jpg 2x">
-                                <source media="(max-width: 767px)"
-                                    srcset="./images/mobile/limitededition.jpg 1x, ./images/mobile/limitededition@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/limitededition.jpg" width="270" height="260" alt="limitededition">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Издание Limited Edition</h3>
-                            <p class="project__text">Дизайн</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="lab">
-                                <source media="(min-width: 1200px)" srcset="./images/lab.jpg 1x, ./images/lab@2x.jpg 2x">
-                                <source media="(min-width: 768px)" srcset="./images/tablet/lab.jpg 1x, ./images/tablet/lab@2x.jpg 2x">
-                                <source media="(max-width: 767px)" srcset="./images/mobile/lab.jpg 1x, ./images/mobile/lab@2x.jpg 2x">
-                                <img class="adaptive-picture" src="./images/lab.jpg" width="270" height="260" alt="lab">
-                            </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Проект LAB</h3>
-                            <p class="project__text">Маркетинг</p>
-                        </div>
-                    </li>
-                    <li class="project__items">
-                        <div class="project__animation">
-                            <picture class="growingbussiness">
-                                        <source media="(min-width: 1200px)" srcset="./images/growingbussiness.jpg 1x, ./images/growingbussiness@2x.jpg 2x">
-                                        <source media="(min-width: 768px)" srcset="./images/tablet/growingbussiness.jpg 1x, ./images/tablet/growingbussiness@2x.jpg 2x">
-                                        <source media="(max-width: 767px)" srcset="./images/mobile/growingbussiness.jpg 1x, ./images/mobile/growingbussiness@2x.jpg 2x">
-                                        <img class="adaptive-picture" src="./images/growingbussiness.jpg" width="270" height="260" alt="growingbussiness">
-                                    </picture>
-                            <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                        </div>
-                        <div class="project__item">
-                            <h3 class="project__title">Growing Business</h3>
-                            <p class="project__text">Приложение</p>
-                        </div>
-                    </li>
-                </ul>
+                <div class="filters">
+                    <ul class="filters__list">
+                        <li class="filters__buttons">
+                            <button type="button" class="filters__btn">Все</button>
+                        </li>
+                        <li class="filters__buttons">
+                            <button type="button" class="filters__btn">Веб-сайты</button>
+                        </li>
+                        <li class="filters__buttons">
+                            <button type="button" class="filters__btn">Приложения</button>
+                        </li>
+                        <li class="filters__buttons">
+                            <button type="button" class="filters__btn">Дизайн</button>
+                        </li>
+                        <li class="filters__buttons">
+                            <button type="button" class="filters__btn">Маркетинг</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">  
+                    <ul class="project__list">
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="technockrack">
+                                    <source media="(min-width: 1200px)" srcset="./images/technockrack.jpg 1x, ./images/technockrack@2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="./images/tablet/technockrack.jpg 1x, ./images/tablet/technockrack@2x.jpg 2x">
+                                    <source media="(max-width: 767px)"
+                                        srcset="./images/mobile/technockrack.jpg 1x, ./images/mobile/technockrack@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/technockrack.jpg" width="270" height="260" alt="technockrack">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Технокряк</h3>
+                                <p class="project__text">Веб-сайт</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="goldenstar">
+                                    <source media="(min-width: 1200px)" srcset="./images/goldenstar.jpg 1x, ./images/goldenstar@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/tablet/goldenstar.jpg 1x, ./images/tablet/goldenstar@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/mobile/goldenstar.jpg 1x, ./images/mobile/goldenstar@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/goldenstar.jpg" width="270" height="260" alt="goldenstar">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
+                                <p class="project__text">Дизайн</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="seafood">
+                                    <source media="(min-width: 1200px)" srcset="./images/seafood.jpg 1x, ./images/seafood@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/tablet/seafood.jpg 1x, ./images/tablet/seafood@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/mobile/seafood.jpg 1x, ./images/mobile/seafood@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/seafood.jpg" width="270" height="260" alt="seafood">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Ресторан Seafood</h3>
+                                <p class="project__text">Приложение</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="prime">
+                                    <source media="(min-width: 1200px)" srcset="./images/prime.jpg 1x, ./images/prime@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/tablet/prime.jpg 1x, ./images/tablet/prime@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/mobile/prime.jpg 1x, ./images/mobile/prime@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/prime.jpg" width="270" height="260" alt="prime">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Проект Prime</h3>
+                                <p class="project__text">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="boxes">
+                                    <source media="(min-width: 1200px)" srcset="./images/boxes.jpg 1x, ./images/boxes@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/tablet/boxes.jpg 1x, ./images/tablet/boxes@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/mobile/boxes.jpg 1x, ./images/mobile/boxes@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/boxes.jpg" width="270" height="260" alt="boxes">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Проект Boxes</h3>
+                                <p class="project__text">Приложение</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="inspiratiion">
+                                    <source media="(min-width: 1200px)" srcset="./images/inspiratiion.jpg 1x, ./images/inspiratiion@2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="./images/tablet/inspiratiion.jpg 1x, ./images/tablet/inspiratiion@2x.jpg 2x">
+                                    <source media="(max-width: 767px)"
+                                        srcset="./images/mobile/inspiratiion.jpg 1x, ./images/mobile/inspiratiion@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/inspiratiion.jpg" width="270" height="260" alt="inspiratiion">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Inspiration has no Borders</h3>
+                                <p class="project__text">Веб-сайт</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="limitededition">
+                                    <source media="(min-width: 1200px)" srcset="./images/limitededition.jpg 1x, ./images/limitededition@2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="./images/tablet/limitededition.jpg 1x, ./images/tablet/limitededition@2x.jpg 2x">
+                                    <source media="(max-width: 767px)"
+                                        srcset="./images/mobile/limitededition.jpg 1x, ./images/mobile/limitededition@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/limitededition.jpg" width="270" height="260" alt="limitededition">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Издание Limited Edition</h3>
+                                <p class="project__text">Дизайн</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="lab">
+                                    <source media="(min-width: 1200px)" srcset="./images/lab.jpg 1x, ./images/lab@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/tablet/lab.jpg 1x, ./images/tablet/lab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/mobile/lab.jpg 1x, ./images/mobile/lab@2x.jpg 2x">
+                                    <img class="adaptive-picture" src="./images/lab.jpg" width="270" height="260" alt="lab">
+                                </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Проект LAB</h3>
+                                <p class="project__text">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li class="project__items">
+                            <div class="project__animation">
+                                <picture class="growingbussiness">
+                                            <source media="(min-width: 1200px)" srcset="./images/growingbussiness.jpg 1x, ./images/growingbussiness@2x.jpg 2x">
+                                            <source media="(min-width: 768px)" srcset="./images/tablet/growingbussiness.jpg 1x, ./images/tablet/growingbussiness@2x.jpg 2x">
+                                            <source media="(max-width: 767px)" srcset="./images/mobile/growingbussiness.jpg 1x, ./images/mobile/growingbussiness@2x.jpg 2x">
+                                            <img class="adaptive-picture" src="./images/growingbussiness.jpg" width="270" height="260" alt="growingbussiness">
+                                        </picture>
+                                <p class="project__overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="project__item">
+                                <h3 class="project__title">Growing Business</h3>
+                                <p class="project__text">Приложение</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
         </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer__all container">
             <div class="footer__container">
                 <a class="footer__web" href="">Web<span class="footer__studio">Studio</span></a>
