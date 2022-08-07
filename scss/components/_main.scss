@@ -1,3 +1,13 @@
+.main {
+
+    @media screen and (min-width: 481px) {
+            min-width: 767px;
+        }
+    @media screen and (min-width: 768px) {
+        min-width: 1200px;
+    }
+}
+
 /* TOP SECTION*/
 
 .main-top {

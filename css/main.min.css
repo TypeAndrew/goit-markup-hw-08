@@ -305,6 +305,17 @@ a {
   margin-right: 9px;
 }
 
+@media screen and (min-width: 481px) {
+  .main {
+    min-width: 767px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    min-width: 1200px;
+  }
+}
+
 /* TOP SECTION*/
 .main-top {
   max-width: 768ppx;
@@ -1064,7 +1075,7 @@ a {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .picture-worker {
-    min-width: 354px;
+    min-width: calc(50% - var(--project-item-gep));
   }
 }
 
