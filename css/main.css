@@ -62,6 +62,13 @@ ul, li {
   height: auto;
 }
 
+.adaptive-picture-project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
 .social__list {
   display: flex;
   justify-content: center;
@@ -184,6 +191,9 @@ ul, li {
   color: #212121;
 }
 .navigation__menu-btn {
+  position: fixed;
+  right: 25px;
+  top: 20px;
   display: inline-flex;
   z-index: 1000;
   margin: 0;
@@ -1488,20 +1498,20 @@ ul, li {
   color: #ffffff;
 }
 
-.project .project__list {
+.project__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .project .project__list {
+  .project__list {
     column-gap: 20px;
     row-gap: 20px;
     justify-content: space-between;
   }
 }
-.project .project__items {
+.project__items {
   width: 370px;
   min-height: 404px;
   background: #ffffff;
@@ -1509,47 +1519,47 @@ ul, li {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
-.project .project__items:hover, .project .project__items:focus {
+.project__items:hover, .project__items:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 @media screen and (max-width: 767px) {
-  .project .project__items {
+  .project__items {
     width: 100%;
   }
-  .project .project__items:not(:last-child) {
+  .project__items:not(:last-child) {
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .project .project__items {
+  .project__items {
     flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
-  .project .project__items {
+  .project__items {
     margin-right: 30px;
   }
-  .project .project__items:nth-child(3n) {
+  .project__items:nth-child(3n) {
     margin-right: 0px;
   }
-  .project .project__items:nth-child(-n+6) {
+  .project__items:nth-child(-n+6) {
     margin-bottom: 30px;
   }
 }
-.project .project__items:hover .project__overlay {
+.project__items:hover .project__overlay {
   transform: translateY(0);
 }
-.project .project__animation {
+.project__animation {
   position: relative;
   overflow: hidden;
 }
-.project .project__picture {
+.project__picture {
   display: block;
   width: 100%;
   height: auto;
 }
-.project .project__overlay {
+.project__overlay {
   display: flex;
   align-items: center;
   position: absolute;
@@ -1568,20 +1578,21 @@ ul, li {
   padding-left: 24px;
   padding-right: 24px;
 }
-.project .project__item {
+.project__item {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
   padding: 20px auto 4px 24px;
+  flex-grow: 1;
 }
-.project .project__title {
+.project__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: #212121;
 }
-.project .project__text {
+.project__text {
   font-size: 16px;
   line-height: 30px;
   color: #757575;

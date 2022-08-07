@@ -59,7 +59,7 @@
 }
 
 .project {
-    .project__list {
+    &__list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -70,7 +70,7 @@
             justify-content: space-between;
         }
     }
-    .project__items {
+    &__items {
         width: 370px;
         min-height: 404px;
         background: $--color-white;
@@ -100,19 +100,19 @@
             }
         }    
     }
-    .project__items:hover .project__overlay {
+    &__items:hover &__overlay {
         transform: translateY(0);
     }
-    .project__animation {
+    &__animation {
         position: relative;
         overflow: hidden;
     }
-    .project__picture {
+    &__picture {
         display: block;
         width: 100%;
         height: auto;
     }
-    .project__overlay {
+    &__overlay {
         display: flex;
         align-items: center;
         position: absolute;
@@ -131,20 +131,21 @@
         padding-left: 24px;
         padding-right: 24px;
     }
-    .project__item {
+    &__item {
         padding-top: 20px;
         padding-left: 24px;
         padding-bottom: 20px;
-        padding: 20px auto 4px 24px;   
+        padding: 20px auto 4px 24px; 
+        flex-grow: 1;  
     }
-    .project__title {
+    &__title {
         margin-bottom: 4px;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
         color: $--color-text;
     }
-    .project__text {
+    &__text {
         font-size: 16px;
         line-height: 30px;
         color: $--color-brown;

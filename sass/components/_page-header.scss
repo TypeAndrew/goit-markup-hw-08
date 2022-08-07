@@ -54,6 +54,9 @@
         }
     
         &__menu-btn {
+            position: fixed;
+            right: 25px;
+            top: 20px;
             display: inline-flex;
             z-index: 1000;
             margin: 0;
