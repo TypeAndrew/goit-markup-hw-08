@@ -139,6 +139,14 @@ ul, li {
 .navigation {
   border-bottom: 1px solid #ECECEC;
 }
+@media screen and (max-width: 768px) {
+  .navigation {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 3;
+  }
+}
 @media screen and (max-width: 767px) {
   .navigation__container {
     min-width: 320px;

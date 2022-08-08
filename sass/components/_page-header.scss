@@ -1,6 +1,12 @@
 .navigation {
     border-bottom: 1px solid $line;
-    
+    @media screen and (max-width: 768px) {
+        position: sticky;
+        top: 0;
+        background-color: $--color-white;
+        z-index: 3;
+    }
+
     &__container {
             @media screen and (max-width:767px) {
                 min-width: 320px;
