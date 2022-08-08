@@ -4,6 +4,7 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -528,7 +529,7 @@ ul, li {
     width: 290px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .hero__title {
     font-size: 26px;
     line-height: 1.61;

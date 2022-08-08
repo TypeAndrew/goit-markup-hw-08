@@ -53,7 +53,7 @@
                  width: 290px;
              }
     
-             @media screen and (max-width: 1199px) {
+             @media screen and (min-width: 480px) and (max-width: 1199px) {
                  font-size: 26px;
                  line-height: 1.61;
                  width: 360px;
