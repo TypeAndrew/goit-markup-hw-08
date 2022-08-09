@@ -144,7 +144,7 @@ ul, li {
     position: sticky;
     top: 0;
     background-color: #ffffff;
-    z-index: 1;
+    z-index: 3;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1474,6 +1474,9 @@ ul, li {
   fill: var(--color-white);
 }
 
+.portfolio {
+  z-index: 1;
+}
 @media screen and (max-width: 1199px) {
   .portfolio {
     padding-top: 60px;
