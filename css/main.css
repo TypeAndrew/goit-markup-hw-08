@@ -606,7 +606,7 @@ ul, li {
 }
 @media screen and (max-width: 320px) {
   .modal {
-    width: 300px;
+    min-width: 292px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 479px) {
@@ -761,6 +761,11 @@ ul, li {
 .form__input:hover, .form__input:focus {
   border-color: #2196F3;
 }
+@media screen and (max-width: 320px) {
+  .form__input {
+    min-width: 290px;
+  }
+}
 @media screen and (min-width: 321px) and (max-width: 1199px) {
   .form__input {
     min-width: 370px;
@@ -770,11 +775,6 @@ ul, li {
   .form__input {
     width: 448px;
     height: 40px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .form__input {
-    min-width: 290px;
   }
 }
 .form__input-label {

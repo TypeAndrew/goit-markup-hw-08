@@ -27,7 +27,9 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     @media screen and (max-width: 320px) {
-            width: 300px;
+            min-width: 290px;
+            padding: 0px;
+            
         }
     @media screen and (min-width: 321px) and (max-width: 479px) {
         width: 100%
@@ -175,7 +177,11 @@
             &:focus {
                 border-color: $--color-blue;
             }
-    
+            
+            @media screen and (max-width: 320px) {
+                min-width: 290px;
+
+            }
             @media screen and (min-width: 321px) and (max-width: 1199px) {
                 min-width: 370px;
             }
@@ -184,10 +190,7 @@
                 width: 448px;
                 height: 40px;
             }
-            @media screen and (max-width: 320px) {
-                min-width: 290px;
-                
-            }
+            
         }
     
         &__input-label {
